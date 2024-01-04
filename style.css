@@ -67,7 +67,8 @@ header {
     margin-right: 115px;
 }
 
-.failure-title {
+.failure-title,
+.my-plan h1 {
     color: var(--Dark-01, #151414);
     font-size: 40px;
     font-weight: 700;
@@ -80,23 +81,56 @@ header {
     font-weight: 400;
     margin-bottom: 16px;
 }
+
 .failure-content ul li {
     list-style: none;
     color: var(--Dark-02, #444343);
     font-size: 16px;
     font-weight: 400;
 }
+
 .failure-content ul li {
     list-style: none;
     color: var(--Dark-02, #444343);
     font-size: 16px;
     font-weight: 400;
 }
-.failure-content ul img{
+
+.failure-content ul img {
     width: 5%;
 }
-.failure-content ul li i{
+
+.failure-content ul li i {
     color: #16D887;
     font-size: 16px;
     margin-right: 5px;
+}
+
+.my-plan {
+    text-align: center;
+}
+
+.my-plan h1 {
+    margin: 50px 0px;
+}
+
+.plan-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.plan {
+    margin: 0px 10px;
+}
+
+.plan-title {
+    color: var(--Dark-01, #151414);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.plan-description {
+    color: var(--Dark-03, #737272);
+    font-size: 20px;
+    font-weight: 500;
 }
