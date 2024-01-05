@@ -171,3 +171,80 @@ header {
     font-size: 15px;
     font-weight: 600;
 }
+
+/* footer styles */
+
+.footer-content {
+    margin-top: 230px;
+    height: 100%;
+    background: var(--Dark-01, #151414);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.future-section {
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+
+.futuer-section-title {
+    color: #F8F8F8;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 16px;
+    margin-top: 100px;
+}
+
+.future-section-content {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    width: 50%;
+    margin-bottom: 24px;
+}
+
+.future-section-email,
+.future-section-phone {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.future-section-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 32px;
+}
+.subscribe-section{
+    margin-right: 150px;
+    margin-bottom: 100px;
+}
+.subscribe-section-title {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 24px;
+
+}
+input {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    background: var(--Dark-01, #151414);
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 90%;
+}
+.footer-btn-secondary{
+    margin-top: 24px;
+    width: 130px;
+    height: 50px;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    color: #F15B22;
+    font-size: 15px;
+    font-weight: 600;
+}
