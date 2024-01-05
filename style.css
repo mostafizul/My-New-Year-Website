@@ -134,3 +134,40 @@ header {
     font-size: 20px;
     font-weight: 500;
 }
+
+.main-img {
+    display: flex;
+    justify-content: center;
+}
+
+.main-img-content {
+    margin-top: 150px;
+    background-image: linear-gradient(to right, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url('images/watch.png');
+    width: 80%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+.main-img-title {
+    margin-left: 64px;
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.btn-secondary {
+    margin-left: 64px;
+    margin-top: 24px;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    color: #F15B22;
+    font-size: 15px;
+    font-weight: 600;
+}
